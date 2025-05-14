@@ -48,7 +48,7 @@ npm install
 
 # Step 4: Run the application
 node index.js
-
+'''
 
 📚 What I Learned
 Building CLI apps using Node.js
