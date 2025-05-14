@@ -35,7 +35,7 @@ Example:
 ✔ QR code saved successfully as qr_img.png
 
 ➡️ You’ll find the generated QR image saved in your project’s root directory.
-
+'''
 💻 How to Us
 # Step 1: Clone the repository
 git clone https://github.com/yourusername/qr-code-generator-cli.git
