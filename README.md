@@ -1,74 +1,80 @@
-# 📦 QR Code Generator CLI App using Node.js
+# 📦 QR Code Generator CLI App
 
-A practical command-line tool that generates QR codes from user input and saves them as PNG files. This project was built as part of **Angela Yu’s Web Development Bootcamp** to gain hands-on experience with Node.js and popular npm packages.
+A command-line tool that generates QR codes from user input and saves them as PNG files. Built as part of Angela Yu's Web Development Bootcamp to gain hands-on experience with Node.js and npm packages.
 
----
+![QR Code Generator Demo](https://via.placeholder.com/800x400.png?text=QR+Code+Generator+CLI+Demo) 
+*(Replace with actual screenshot/gif)*
 
 ## 🚀 Features
 
-- 📝 Accepts user input (URL or text) via terminal  
-- 🔲 Generates a QR code using `qr-image`  
-- 💾 Saves the QR code as `qr_img.png` using Node's `fs` module  
-- 🎨 Styled terminal output using `chalk`  
-- 🧠 Uses `inquirer` for interactive command-line prompts  
-
----
+- 📝 Accepts user input (URL/text) via terminal
+- 🔲 Generates QR codes using `qr-image`
+- 💾 Saves QR code as `qr_img.png` using `fs` module
+- � Styled terminal output with `chalk`
+- 🧠 Interactive prompts using `inquirer`
 
 ## 🛠️ Tech Stack
 
-- **Node.js**
-- [`inquirer`](https://www.npmjs.com/package/inquirer)
-- [`qr-image`](https://www.npmjs.com/package/qr-image)
-- [`chalk`](https://www.npmjs.com/package/chalk)
-- Node.js built-in [`fs`](https://nodejs.org/api/fs.html) module
+![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&logoColor=white)
+- **inquirer** 🗂️
+- **qr-image** 🔳
+- **chalk** 🎨
+- **fs** (Node.js built-in) 📁
 
----
-
-## 📸 Demo
-
-### Running the App
+## 📥 Installation
 
 ```bash
-node index.js
-Example
-bash
-Copy
-Edit
-? Enter the URL or text for the QR code: https://github.com/
-✔ QR code saved successfully as qr_img.png
-📁 You’ll find the generated QR image saved in your project’s root directory.
-
-💻 How to Use
-bash
-Copy
-Edit
-# Step 1: Clone the repository
+# Clone the repository
 git clone https://github.com/yourusername/qr-code-generator-cli.git
 
-# Step 2: Navigate to the project folder
+# Navigate to project directory
 cd qr-code-generator-cli
 
-# Step 3: Install dependencies
+# Install dependencies
 npm install
-
-# Step 4: Run the application
+```
+## 🖥️ Usage
+```bash
 node index.js
-📚 What I Learned
-Building CLI apps using Node.js
+```
+## Example terminal session:
+```bash
+? Enter the URL or text for the QR code: https://github.com/
+✔ QR code saved successfully as qr_img.png
+```
+The generated QR image will be saved in your project's root directory.
+
+📚 Learning Outcomes
+Through building this project, I gained experience with:
+
+Building CLI applications with Node.js
 
 Working with external npm modules
 
-Handling file creation with the fs module
+File system operations using fs module
 
 Generating dynamic QR codes from terminal input
 
-Improving UX with terminal styling
+Enhancing CLI UX with terminal styling
 
-👨‍💻 Author
-Faraz Bin Tariq
+## 👨💻 Author
+## Faraz Bin Tariq
 📍 Noida, India
 📧 usama.tariq131@gmail.com
 📞 +91 70113 70264
-🔗 LinkedIn Profile
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/faraz-bin-tariq-316590218/)
 
-⭐ Feel free to fork, star, or contribute
+## 🤝 Contributing
+Contributions are welcome! Please feel free to:
+
+Fork the repository
+
+Create a feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+## 📜 License
+This project is open-source and available under the MIT License.
