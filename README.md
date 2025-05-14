@@ -4,48 +4,60 @@ This is a simple and interactive Command Line Interface (CLI) application built 
 
 ## 🚀 Features
 
-- Takes user input from the terminal using `inquirer`
-- Generates a QR code using `qr-image`
-- Saves the QR code as a PNG image using Node.js `fs` module
-- Stylized terminal output with `chalk`
+- Prompt user input directly from the terminal using `inquirer`
+- Generate a QR code using `qr-image`
+- Save the QR code as a PNG using Node.js's built-in `fs` module
+- Colorful terminal output with `chalk`
 
 ## 📸 Demo
 
-When you run the app, it asks for a URL or text input, then creates a QR code PNG file in your project directory.
+When you run the app, it will:
+1. Ask for a URL or any text input
+2. Generate a QR code
+3. Save it as `qr_img.png` in your project directory
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- [Node.js](https://nodejs.org/)
+- **Node.js**
 - [`inquirer`](https://www.npmjs.com/package/inquirer)
 - [`qr-image`](https://www.npmjs.com/package/qr-image)
-- [`fs`](https://nodejs.org/api/fs.html) (built-in)
 - [`chalk`](https://www.npmjs.com/package/chalk)
+- Built-in [`fs`](https://nodejs.org/api/fs.html)
 
-## 📂 Installation
+## 📂 How to Run
 
-1. Clone this repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/qr-code-generator-cli.git
 cd qr-code-generator-cli
 Install dependencies:
-```bash
+
+bash
+Copy
+Edit
 npm install
 Run the app:
-```bash
+
+bash
+Copy
+Edit
 node index.js
-Example
-```bash
+✅ Example Output
+bash
+Copy
+Edit
 ? Enter the URL or text for the QR code: https://github.com/
-✔ QR code saved as qr_img.png
+✔ QR code saved successfully as qr_img.png
 📁 Output
-The QR code will be saved in the same directory as qr_img.png.
+The generated QR code image (qr_img.png) will be saved in your project root directory.
 
-📚 Learning Source
-Built while following Angela Yu's Complete Web Development Bootcamp.
+📚 Learning Resource
+This project was created as part of Angela Yu's Complete Web Development Bootcamp on Udemy.
 
-📬 Contact
-Created by Faraz Bin Tariq
-📧 Email: usama.tariq131@gmail.com
-📍 Location: Noida, India
+🙋‍♂️ Author
+Faraz Bin Tariq
+📍 Noida, India
+📧 usama.tariq131@gmail.com
+🔗 LinkedIn Profile
 
